@@ -4,11 +4,10 @@ require 'redbis/client'
 
 module ReDBis
 
-	class << self
-		def new o={}
-			ReDBis::Client.new o
-		end
-	end
+  class << self
+    def new o={}
+      ReDBis::Client.new o
+    end
+  end
 
 end
-
